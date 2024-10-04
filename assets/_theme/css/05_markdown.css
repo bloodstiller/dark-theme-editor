@@ -98,8 +98,24 @@ article.main > div.content p + p {
 ***************/
 span.underline-bold {
     color: #FF3D2B !important;
-    text-decoration: underline;
+    font-size: 0.8rem;
     font-weight: bold;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black; /* Shadow color and position */
+}
+
+
+/**************
+  Custom for inbetween = = symbols
+***************/
+.custom-format {
+    color: #F1FA8C !important; /* Different color for text between = signs */
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-shadow:
 }
 
 /**************
