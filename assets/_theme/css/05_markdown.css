@@ -91,6 +91,17 @@ article.main > div.content p + p {
     margin-top: 1.4em;
 }
 
+
+
+/**************
+  Custom for inbetween + + symbols
+***************/
+span.underline-bold {
+    color: #FF3D2B !important;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 /**************
     Anchor
 ***************/

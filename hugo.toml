@@ -79,7 +79,7 @@
     # Customized info shown in footer of the page
     [params.footer]
         # CopyRight string shown in the footer. Keep it an empty string or remove this item will hide it from the page.
-        copyrightStr = "All Rights Reserved ®."
+        copyrightStr = "All Rights Reserved ®. bloodstiller"
 
         # Should show the counter in the footer or not
         # In the home page, it will show the numbers of all pages
