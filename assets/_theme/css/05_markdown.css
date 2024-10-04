@@ -10,7 +10,7 @@
 ***************/
 article.main > div.content * {
     line-height: 22pt;
-    color: #e6edf3;
+    color: #F0F8FF;
 }
 
 article.main > div.content > :first-child {
@@ -19,30 +19,65 @@ article.main > div.content > :first-child {
 
 /**************
     Header
-***************/
 article.main > div.content :where(h1, h2, h3, h4, h5, h6) {
+    font-size: 3.2em
     margin-top: 24pt;
     margin-bottom: 16pt;
     font-weight: bold;
+    color: #bd93f9;
 }
 
 article.main > div.content :where(h1, h2) {
+    padding-top: 15pt;
     padding-bottom: 15pt;
     border-bottom: 1px solid #5c5e60;
 }
 
+***************/
 article.main > div.content h1 {
-    font-size: 2em;
+    padding-top: 18pt;
+    padding-bottom: 18pt;
+    font-size: 3em;
+    color: #00BFFF;
+
 }
 
 article.main > div.content h2 {
-    font-size: 1.6rem;
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+    font-size: 2rem;
 }
 
 article.main > div.content h3 {
-    font-size: 1.4rem;
+    padding-top: 12pt;
+    padding-bottom: 12pt;
+    font-size: 1.6rem;
+    color: #7fb8ee;
+
 }
 
+article.main > div.content h4 {
+    padding-top: 10pt;
+    padding-bottom: 15pt;
+    font-size: 1.2rem;
+    color: #79c6ff;
+}
+
+article.main > div.content h5 {
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+    font-size: 1rem;
+    color: #FFB86C;
+}
+
+article.main > div.content h6 {
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+    font-size: 0.8rem;
+    color: #F1FA8C;
+    text-decoration: underline;
+
+}
 /**************
    Paragraph
 ***************/
@@ -65,7 +100,6 @@ article.main > div.content a {
 
 article.main > div.content a:hover {
     color: #7fb8ee;
-    text-decoration: underline;
 }
 
 /**************
@@ -122,8 +156,8 @@ article.main > div.content em {
 
 article.main > div.content strong {
     font-weight: bold;
-    font-size: 106%;
-    color: white;
+    font-size: 110%;
+    /*color: white;*/
 }
 
 article.main > div.content del {
@@ -135,7 +169,7 @@ article.main > div.content del {
 ***************/
 article.main > div.content hr {
     height: 0.1em;
-    background-color: #525252;
+    background-color: #282a36;
     margin: 12pt 0;
     padding: 0;
     border: 0;
@@ -188,15 +222,17 @@ article.main > div.content table > tbody > tr:nth-child(2n) {
 /*** small code span ***/
 article.main > div.content :where(pre, code) {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    background-color: #45465a;
 }
 
 article.main > div.content code:not(div.highlight code) {
     padding: 0.2em 0.4em;
-    font-size: 85%;
-    background-color: rgb(92 92 92);
+    font-size: 99%;
+    color: #85e685;
     border-radius: 5pt;
     margin-left: 0.2em;
     margin-right: 0.2em;
+
 }
 
 /*** Code block indented with four spaces ***/
@@ -204,7 +240,7 @@ article.main > div.content pre:not(div.highlight pre) {
     border-radius: 10px;
     padding: 1em;
     overflow: auto;
-    background-color: #202020;
+    background-color: #45465a;
 }
 
 article.main > div.content pre:not(div.highlight pre) > code {
@@ -212,6 +248,7 @@ article.main > div.content pre:not(div.highlight pre) > code {
     padding: 0;
     font-size: 100%;
     background-color: transparent;
+    background-color: #45465a;
 }
 
 /*** Highlight Codeblock ***/
@@ -224,6 +261,7 @@ article.main > div.content div.codeblock > div.copy-button-box {
     top: 2.6em;
     width: 100%;
     justify-content: flex-end;
+
 }
 
 article.main
@@ -241,6 +279,8 @@ article.main
     padding-left: 0.7em;
     padding-right: 0.7em;
     font-size: 14px;
+
+
 }
 
 article.main
@@ -371,4 +411,10 @@ article.main > div.content div.footnotes :where(p, p + p) {
 :where(article.main, article.main *)::-webkit-scrollbar-thumb {
     background: rgb(139, 139, 139);
     border-radius: 10pt;
+}
+
+
+::selection {
+    background-color:  #f1fa8c;
+    color: #ff5555;
 }

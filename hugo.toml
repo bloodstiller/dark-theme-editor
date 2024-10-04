@@ -112,7 +112,7 @@
 
         # Social link in the footer, listed items are supported, delete unwanted items to hide it.
         [params.footer.socialLink]
-            github = ""
+            github = "https://github.com/bloodstiller"
             facebook = ""
             twitter = ""
             email = ""
@@ -131,13 +131,13 @@
         # 1. the footer of all page
         # 2. the author filed in the single page. (this could be overwritten by the frontmatter of the single page.)
         # Keep it an empty string or remove this item will hide it from the page
-        author = "Jing Wang"
+        author = "Bloodstiller"
         
         # Website description for RSS and SEO. Theme will generate a <meta> tag for this item
-        description = "This is my new hugo site"
+        description = "Saucy Monk"
 
         # Website keywords. Theme will generate a <meta> tag for this item.
-        keywords = "hugo,site,new"
+        keywords = "hacking, AD"
 
     # Parameters applied in the homepage only
     [params.homePage]
@@ -180,7 +180,7 @@
         # The format of the date.
         # Refer to page https://gohugo.io/functions/format/ for more detail.
         # Below is the default format, please do not remove it, unless you set `false` in `showDate` field.
-        dateFormat = "2006.01.02"
+        dateFormat = "2006.02.01"
 
         # Should show the estimate reading time in front of the page or not.
         showTimeToRead = true
