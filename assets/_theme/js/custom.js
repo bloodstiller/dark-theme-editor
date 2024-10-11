@@ -10,13 +10,14 @@ document.addEventListener("DOMContentLoaded", function() {
           span.textContent = p1;
           return span.outerHTML;
         })
+      /*
         .replace(/=(.*?)=/g, function(match, p1) {
           var span = document.createElement('span');
           span.className = 'custom-format'; // Class for text between =
           span.textContent = p1;
           return span.outerHTML;
         });
-
+*/
       // Replace the node's content with processed HTML
       var tempDiv = document.createElement('div');
       tempDiv.innerHTML = replacedText;
