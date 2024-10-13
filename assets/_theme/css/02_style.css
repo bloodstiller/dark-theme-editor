@@ -138,15 +138,19 @@ article.main > div.article-meta > div.categories > a.cat-btn:hover {
 }
 
 article.main > div.article-meta > div.tags > a.tag-btn {
-    background: #327e5e;
+    background: #85e685;
+    font-size: 10pt;
+
+
 }
 
 article.main > div.article-meta > div.tags > a.tag-btn:hover {
-    background: #479775;
+    background: #51afef;
+    font-size: 14pt;
 }
 
 article.main > div.article-meta > div:where(.categories, .tags) > a {
-    line-height: 2.8em;
+    font-size: 12pt;
 }
 
 article.main > div.article-meta > div:where(.breadcumb, .translation) > a {
